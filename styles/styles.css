@@ -1,16 +1,23 @@
 
+.titulo{
 
+    font-family: arial;
+
+}
 .container{
 
    display: flex;
+  
    align-items: center;
    flex-direction:column;
-    background-color: rgb(240, 243, 243);
+    background-color: rgb(255, 255, 255);
 }
 .circulo{
 
     height: 120px;
     width: 120px;
+    
+    
     background-image:linear-gradient(rgb(175, 228, 180), rgb(24, 104, 3));
     margin: auto;
     border-radius:50%;

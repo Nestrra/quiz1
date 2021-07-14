@@ -7,7 +7,7 @@
 .container{
 
    display: flex;
-  
+    
    align-items: center;
    flex-direction:column;
     background-color: rgb(255, 255, 255);
@@ -16,9 +16,7 @@
 
     height: 120px;
     width: 120px;
-    
-    
-    background-image:linear-gradient(rgb(175, 228, 180), rgb(24, 104, 3));
+    background: linear-gradient(#1cbb3c, #adb8b0);    
     margin: auto;
     border-radius:50%;
 
@@ -29,7 +27,7 @@
 
     height: 90px;
     width: 150px;
-    background-image:linear-gradient(rgb(53, 53, 202), rgb(139, 139, 212));
+    background: linear-gradient(#96bbe2, #094f91); 
 
 
 }
@@ -49,8 +47,9 @@
     margin-top: 20px;
     width: 100px; 
     height: 100px; 
-    border: 3px solid #e1ec07; 
-    background-image:linear-gradient(rgb(240, 212, 0), rgb(102, 88, 5));        
+    
+    background: linear-gradient(yellow, #e2a447); 
+        
     transform: rotate(45deg);
 
 }

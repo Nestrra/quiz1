@@ -1,0 +1,49 @@
+
+
+.container{
+
+   display: flex;
+   align-items: center;
+   flex-direction:column;
+    background-color: rgb(240, 243, 243);
+}
+.circulo{
+
+    height: 120px;
+    width: 120px;
+    background-image:linear-gradient(rgb(175, 228, 180), rgb(24, 104, 3));
+    margin: auto;
+    border-radius:50%;
+
+}
+
+.rectangulo{
+
+
+    height: 90px;
+    width: 150px;
+    background-image:linear-gradient(rgb(53, 53, 202), rgb(139, 139, 212));
+
+
+}
+
+.triangulo{
+
+    width: 0;
+     height: 0;
+     border-right: 60px solid transparent;
+     border-left: 60px solid transparent;
+     border-bottom: 150px solid #910bd0;
+
+
+}
+
+.rombo{
+    margin-top: 20px;
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid #e1ec07; 
+    background-image:linear-gradient(rgb(240, 212, 0), rgb(102, 88, 5));        
+    transform: rotate(45deg);
+
+}
